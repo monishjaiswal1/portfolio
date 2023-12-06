@@ -1,0 +1,128 @@
+body{
+    font-family: arial;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.brand{
+    font-size: 30px;
+}
+nav span{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    border: none;
+    background-color: black;
+    height: 5px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.navs{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+footer{
+    display: grid;
+    grid-template-columns: 6fr 6fr ;
+    background-color: gray;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-left: 3px solid rgb(96, 91, 91);
+}
+dd{
+    margin-bottom: 20px;
+}
+#skillss{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    height: 550px;
+    margin-left: 50px;
+}
+.second-col{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.first-col dd{
+    margin-bottom: 30px;
+}
+.first-col{
+    margin-left: 127px;
+}
+.skill-head{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.social-links{
+    font-size: 30px;
+}
+.social-links a{
+    margin-left: 10px;
+}
+.linkedin{
+    color: rgb(124, 124, 228);
+}
+.whatsapp{
+    color: green;
+}
+.twitter{
+    color: rgb(93, 93, 182);
+}
+.navs{
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.aboutme-name{
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+}
+.aboutme{
+    width: 800px;
+    margin-left: 25%;
+    text-align: justify;
+}
+#about{
+    margin-top: 80px;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main-matter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.intro{
+    font-weight: bold;
+    font-size: 30px;
+}
+.name{
+    font-weight: bold;
+    color: blue;
+    font-size: 35px;
+}
